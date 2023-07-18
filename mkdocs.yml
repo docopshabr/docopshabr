@@ -1,0 +1,42 @@
+site_name: Документация для Наш продукт
+
+nav:
+  - Руководство по установке:
+    - ig/index.md
+    - Создание репозитория:
+      - ig/repo_creation_gh.md
+      - ig/repo_creation_gl.md
+    - ig/mkdocs_installation.md
+  - Руководство администратора:
+    - ag/index.md
+    - ag/setup.md
+    - ag/pub_setup.md
+
+theme:
+  name: material
+  language: ru
+  logo: assets/logo.png
+  favicon: assets/logo_fav.png
+  theme:
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Ночь
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: День
+  features:
+    - navigation.instant # ускорение загрузки (SPA)
+    - navigation.tracking # динамический URL страницы 
+    - navigation.tabs # верхний уровень заголовков в горизонтальное меню
+    - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
+    - navigation.indexes # главные страницы разделов не отображаются в меню
+    - navigation.top # вкл. кнопку возврата наверх
+
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
