@@ -26,7 +26,7 @@ jobs:
       - run: git config --global user.email = "your@mail"
       - run: git fetch
       - run: pip install mike
-      - run: mike deploy --push --update-aliases -b gh-pages 2.1 latest
+      - run: mike deploy --push --update-aliases -b gh-pages 2.2 latest
 
 
 # Публикация без версионирования
