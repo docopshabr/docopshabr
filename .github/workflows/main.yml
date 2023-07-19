@@ -28,6 +28,7 @@ jobs:
       - run: pip install mike
       - run: mike deploy --push --update-aliases -b gh-pages 2.2 latest
 
+
 # Публикация без версионирования
 # name: ci 
 # on:
