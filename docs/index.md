@@ -2,7 +2,7 @@
 
 Это первая версия
 
-Это вторая версия
+<!-- Это вторая версия -->
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
