@@ -40,3 +40,7 @@ plugins:
       lang: 
         - en
         - ru
+
+extra:
+  version:
+    provider: mike

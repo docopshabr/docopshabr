@@ -1,7 +1,8 @@
-name: ci 
+# Публикация с версионированием
+name: ci
 on:
   push:
-    branches:
+    branches: 
       - main
 permissions:
   contents: write
@@ -21,4 +22,34 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
+      - run: git config --global user.name = "Your Name"
+      - run: git config --global user.email = "your@mail"
+      - run: git fetch
+      - run: pip install mike
+      - run: mike deploy --push --update-aliases -b gh-pages 1.0 latest
+
+# Публикация без версионирования
+# name: ci 
+# on:
+#   push:
+#     branches:
+#       - main
+# permissions:
+#   contents: write
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-python@v4
+#         with:
+#           python-version: 3.x
+#       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+#       - uses: actions/cache@v3
+#         with:
+#           key: mkdocs-material-${{ env.cache_id }}
+#           path: .cache
+#           restore-keys: |
+#             mkdocs-material-
+#       - run: pip install mkdocs-material 
+#       - run: mkdocs gh-deploy --force
