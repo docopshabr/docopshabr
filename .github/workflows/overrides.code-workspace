@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "overrides",
+			"path": "../../../../Downloads/docopshabr-main/overrides"
+		},
+		{
+			"name": "docopsgh",
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}

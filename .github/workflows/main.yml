@@ -22,6 +22,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-print-site-plugin
       - run: git config --global user.name = "Your Name"
       - run: git config --global user.email = "your@mail"
       - run: git fetch
