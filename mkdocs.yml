@@ -57,7 +57,7 @@ plugins:
       include_css: true # Переопределяет дефолтные CSS с целью кастомизации
       enabled: true # Включает/отключает plug-in
       exclude: # Исключает страницы из PDF
-
+        - index.md
 extra:
   version:
     provider: mike
