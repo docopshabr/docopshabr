@@ -62,6 +62,10 @@ extra:
   version:
     provider: mike
 
-repo_url: https://github.com/docopshabr/docopshabr
-repo_name: DocOpsHabr Docs
-edit_uri: edit/main/docs
+# repo_url: https://github.com/docopshabr/docopshabr
+# repo_name: DocOpsHabr Docs
+# edit_uri: edit/main/docs
+
+repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: squidfunk/mkdocs-material
+edit_uri: edit/main/docs/
