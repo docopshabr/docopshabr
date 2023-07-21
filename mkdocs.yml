@@ -61,3 +61,5 @@ plugins:
 extra:
   version:
     provider: mike
+
+    repo_url: https://github.com/docopshabr/docopshabr.git
