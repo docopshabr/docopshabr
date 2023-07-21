@@ -44,23 +44,24 @@ plugins:
       lang: 
         - en
         - ru
-  - print-site:
-      add_to_navigation: true # Пункт "Распечатать PDF" в меню, см. след. парам. 
-      print_page_title: 'Распечатать PDF' # Название пункта, см. пред. парам.
-      add_print_site_banner: false # Ненужный банер на странице печати
-      add_table_of_contents: true # Включает содержание
-      toc_title: 'Содержание' # Название содержания
-      toc_depth: 6 # Количество уровней заголовков в содержании
-      add_full_urls: false # Отображение адресов ссылок, например Ссылка (https://site) 
-      enumerate_headings: false # Нумерация заголовков 
-      enumerate_figures: true # Нумерация рисунков
-      add_cover_page: true # Титульная страница 
-      cover_page_template: "" # Шаблон титульной страницы
-      path_to_pdf: "" # Путь к PDF
-      include_css: true # Переопределяет дефолтные CSS с целью кастомизации
-      enabled: true # Включает/отключает plug-in
-      exclude: # Исключает страницы из PDF
-        - index.md
+  # - print-site:
+  #     add_to_navigation: true # Пункт "Распечатать PDF" в меню, см. след. парам. 
+  #     print_page_title: 'Распечатать PDF' # Название пункта, см. пред. парам.
+  #     add_print_site_banner: false # Ненужный банер на странице печати
+  #     add_table_of_contents: true # Включает содержание
+  #     toc_title: 'Содержание' # Название содержания
+  #     toc_depth: 6 # Количество уровней заголовков в содержании
+  #     add_full_urls: false # Отображение адресов ссылок, например Ссылка (https://site) 
+  #     enumerate_headings: false # Нумерация заголовков 
+  #     enumerate_figures: true # Нумерация рисунков
+  #     add_cover_page: true # Титульная страница 
+  #     cover_page_template: "" # Шаблон титульной страницы
+  #     path_to_pdf: "" # Путь к PDF
+  #     include_css: true # Переопределяет дефолтные CSS с целью кастомизации
+  #     enabled: true # Включает/отключает plug-in
+  #     exclude: # Исключает страницы из PDF
+  #       - index.md
+
 extra:
   version:
     provider: mike
