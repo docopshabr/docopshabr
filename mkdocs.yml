@@ -62,6 +62,6 @@ extra:
   version:
     provider: mike
 
-repo_url: https://github.com/docopshabr/docopshabr.git
+repo_url: https://github.com/docopshabr/docopshabr
 repo_name: DocOpsHabr Docs
-edit_uri: edit/main/docs/
+edit_uri: edit/main/docs
