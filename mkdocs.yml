@@ -18,7 +18,6 @@ theme:
   language: ru
   logo: assets/logo.png
   favicon: assets/logo_fav.png
-  theme:
   palette: 
     - scheme: default
       toggle:
@@ -35,6 +34,10 @@ theme:
     - navigation.tabs.sticky # горизонтальное меню не скрывается при прокрутке
     - navigation.indexes # главные страницы разделов не отображаются в меню
     - navigation.top # вкл. кнопку возврата наверх
+  # icon:
+  #   edit: material/pencil 
+  #   view: material/eye
+
 
 plugins:
   - search:
@@ -62,10 +65,6 @@ extra:
   version:
     provider: mike
 
-# repo_url: https://github.com/docopshabr/docopshabr
-# repo_name: DocOpsHabr Docs
-# edit_uri: edit/main/docs
-
-repo_url: https://github.com/squidfunk/mkdocs-material
-repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/docopshabr/docopshabr
+repo_name: DocOpsHabr Docs
 edit_uri: edit/main/docs/
